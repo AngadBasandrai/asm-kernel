@@ -1,0 +1,11 @@
+clearGfxScreen:
+
+	mov ah, 0x00
+	mov al, 0x13
+	int 0x10
+
+	mov ah, 0x0B
+	mov bx, 0x0001
+	int 0x10
+
+	ret

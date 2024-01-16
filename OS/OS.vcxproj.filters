@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ASM">
+      <UniqueIdentifier>{a497caee-1b1f-40d7-a789-3546e6285bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Print">
+      <UniqueIdentifier>{7ad9405e-7b6a-41d9-a90e-43fd41eae79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen">
+      <UniqueIdentifier>{5080439d-a87e-4dd1-8b79-1f72dd835b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Programs">
+      <UniqueIdentifier>{968174c6-1048-440b-833a-a634bfdad6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{e7cc7fd0-76d9-4649-8bf8-1107761eab2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\C++\OS\OS\bootloader_comments.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\compileasm.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="bin\bochsrc.bxrc" />
+    <None Include="src\asm\bootloader.asm">
+      <Filter>Source Files\ASM</Filter>
+    </None>
+    <None Include="src\print\printString.asm">
+      <Filter>Source Files\Print</Filter>
+    </None>
+    <None Include="src\print\vars.asm">
+      <Filter>Source Files\Print</Filter>
+    </None>
+    <None Include="src\asm\diskLoad.asm">
+      <Filter>Source Files\ASM</Filter>
+    </None>
+    <None Include="src\asm\kernel.asm">
+      <Filter>Source Files\ASM</Filter>
+    </None>
+    <None Include="src\asm\fileTable.asm">
+      <Filter>Source Files\ASM</Filter>
+    </None>
+    <None Include="src\commands\clearScreen.asm">
+      <Filter>Source Files\Commands</Filter>
+    </None>
+    <None Include="src\commands\printFileTable.asm">
+      <Filter>Source Files\Commands</Filter>
+    </None>
+    <None Include="src\commands\clearGfxScreen.asm">
+      <Filter>Source Files\Commands</Filter>
+    </None>
+    <None Include="src\commands\gfx.asm">
+      <Filter>Source Files\Commands</Filter>
+    </None>
+  </ItemGroup>
+</Project>
